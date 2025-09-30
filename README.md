@@ -8,7 +8,7 @@ CLLMi is a command-line automation harness that wraps the Gemini API to inspect 
 Salient Features
 ----------------
 - Gemini-backed agent loop that plans tool calls before replying, keeping conversations and actions synchronized.
-- Hard sandbox boundaries: all read/write/execute operations are scoped to `calculator/`, protecting the surrounding filesystem.
+- Hard sandbox boundaries: all read/write/execute operations are scoped , protecting the surrounding filesystem.
 - Transparent Python tooling with explicit schemas, making it easy to audit behavior or add new capabilities.
 - Headless workflow focus: runs entirely from the terminal with optional verbose traces of each tool invocation.
 
