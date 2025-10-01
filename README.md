@@ -28,7 +28,7 @@ uv run main.py "List files in pkg"
 uv run main.py "Open lorem.txt" --verbose
 ```
 
-The entry point automatically injects ./calculator as the working directory for every function call, so pass paths relative to that directory or cahnge in main.py.
+The entry point automatically injects ./calculator as the working directory for every function call, so pass paths relative to that directory or change in main.py.
 
 Tool Reference
 --------------
